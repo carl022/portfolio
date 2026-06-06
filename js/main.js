@@ -456,7 +456,7 @@ function downloadProjectReport() {
   const originalHTML = btn.innerHTML;
 
   // PLACEHOLDER: Replace 'docs/ctl-project-report.pdf' with your actual file path
-  const fileUrl = "/docs/TAUTSAGAE-DESIGN.pdf";
+  const fileUrl = "../docs/TAUTSAGAE-DESIGN.pdf";
 
   // Create temporary link and trigger download
   const link = document.createElement("a");
